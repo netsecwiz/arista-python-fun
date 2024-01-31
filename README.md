@@ -8,6 +8,8 @@ Instructions
 Step 1: Generate the Hosts File
 Run the hosts-builder.py script to create the Ansible hosts file:
 
+```markdown
+```python3
 `python3 hosts-builder.py`
 
 This script will prompt you for the necessary details and output a configured hosts file for use with Ansible.
@@ -15,6 +17,8 @@ This script will prompt you for the necessary details and output a configured ho
 Step 2: Generate the Variable File
 Execute the var-builder10.py to construct the variable file required for Ansible:
 
+```markdown
+```python3
 `python3 var-builder10.py`
 
 Follow the interactive prompts provided by the script to input your specific configuration parameters.
@@ -22,6 +26,8 @@ Follow the interactive prompts provided by the script to input your specific con
 Step 3: Create Ansible Playbooks
 Utilize the playbooks-builder.py to automatically generate playbooks for the specified environments:
 
+```markdown
+```python3
 `python3 playbooks-builder.py`
 
 The script will guide you through the creation process and produce ready-to-use Ansible playbooks.
